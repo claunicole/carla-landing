@@ -1,0 +1,127 @@
+.home-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: 70vh;
+  width: 100vw;
+  padding-right: 25px;
+  font-weight: 500;
+  background-image: url('../assets/bc-home.jpg');
+  background-size: cover;
+  background-position: 20%; 
+  color: #CC3366;
+  
+}
+
+.info {
+  padding-top: 100px;
+}
+
+.info h1 {
+  width: 200px;
+  font-size: 2.5rem;
+}
+
+.info h2 {
+  margin-bottom: 10px;
+}
+
+
+.button {
+  width: 150px;
+  height: 45px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  background-color: #CC3366;
+  border-radius: 4px;
+  margin-bottom: 0px;
+  color: white;
+  z-index: +2;
+  margin-bottom: 50px;
+  
+  }
+  
+  .button:hover, .button:focus {
+    background-color: #ed5992;
+  }
+
+
+@media (min-width: 760px) {
+
+  .home-container {
+    padding-right: 125px;
+  }
+
+  .info {
+    padding-top: 100px;
+  }
+  
+  
+  
+  .info h1 {
+      font-size: 2.5rem;
+      line-height: 40px;
+   } 
+
+   .info h2 {
+      font-size: 1.8rem;
+   } 
+
+   .button {
+      width: 240px;
+      height: 50px;    
+  }
+}
+
+
+
+@media (min-width: 1024px) {
+
+  .home-container{
+   
+    align-items: center;
+    min-height: 70vh;
+    width: 100vw;
+    padding-left: 150px;
+    background-position: 20%; 
+    color: #CC3366;
+    
+  }
+
+ 
+
+  .info {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      min-height: 85vh;  
+      margin-bottom: 50px;
+  }
+
+
+  .info h1 {
+    width: fit-content;
+    font-size: 4rem;
+    line-height: 65px;
+}
+
+  .info h2 {
+      font-size: 2.5rem;
+      line-height: 50px;
+      padding-bottom: 20px;
+  }
+ 
+
+  .button{
+      font-size: 1.8rem;
+  }
+
+ 
+}

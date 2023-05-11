@@ -1,0 +1,150 @@
+.navbar {
+  display: flex;
+  justify-content:space-between;
+  min-width: 100%;
+  height: 70px;
+  padding: 25px;
+  position: fixed;
+  top: 0px;
+  background-color: white;
+  color: #213547;
+  z-index: 100;
+  box-shadow: 1px 10px 15px -8px rgba(132, 132, 132, 0.493);
+  font-size: 1.5rem;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content:flex-end;
+  min-width: 100%;
+  min-height: 100px;  
+  position: fixed; 
+  z-index: 100; 
+  
+}
+
+.nav-menu h3, .nav-menu .menu-bars {
+  visibility: hidden;
+}
+
+.nav-links-container {
+  display: flex;
+  align-items: center;
+}
+
+.info-icons {
+  display: flex;
+  gap: 30px;
+}
+
+
+.menu {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 75vw;
+  height: 100%;
+  background-color: #EC6794;
+  color: white;
+  top: 0;
+  transition: 250ms;
+  padding: 15px;
+  
+}
+
+.menu-hidden {
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  visibility: hidden;
+}
+
+#item-container-mobile {
+  margin-top: 70px;   
+}
+
+.item-container-desktop {
+  visibility: hidden;
+}
+
+.item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  margin-top: 15px;
+  height: 60px;
+}
+
+.item a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: 400;
+}
+
+.item a:hover {
+ 
+  color: #EC6794;
+}
+
+.menu-bars{
+  color: #213547
+}
+
+.menu-x {
+  color: white;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+.navbar-toggle{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+
+
+@media (min-width: 1024px) {
+
+  .navbar { 
+      min-height: 130px;
+  }
+
+  .info-icons {
+
+    align-items: center;
+    
+  }
+   
+
+  .nav-links-container a {
+      font-size: 2.2rem;
+      color: black;
+      margin-left: 25px;
+  }
+
+  .nav-links-container a:hover {
+      font-size: 2.6rem;
+      transition: 250ms;
+  }
+
+  .menu-bars {
+      visibility: hidden;
+  }
+
+  .item-container-desktop {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0px;
+      position: absolute;
+      left: 400px;
+      bottom: 40px;
+      visibility: visible;
+  }
+}

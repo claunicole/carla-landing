@@ -1,0 +1,51 @@
+.about-container {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 70vh;
+  width: 100vw;
+  padding: 30px;
+  padding-top: 100px;
+  font-weight: 500;
+
+}
+
+.img-profile {
+  display: none;
+}
+
+.about-container h2 {
+  font-size: 2.5rem;
+  color: #CC3366;
+}
+
+.about-container p {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+
+  .about-container {
+    padding-top: 120px;
+  }
+
+  .info-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .img-profile {
+    display:inline;
+  }
+
+  .about-container h2 {
+    font-size: 3.5rem;
+    padding-bottom: 20px;
+  }
+  
+  .about-container p {
+    font-size: 2rem;
+  }
+}
