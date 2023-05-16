@@ -11,10 +11,10 @@ function NavLinks({mobile, desktop}) {
               <Link to='/perfil'>Perfil</Link>
             </li>
             <li className='item'>
-              <Link to='/skills'>Servicios</Link>
+              <Link to='/servicios'>Servicios</Link>
             </li>
             <li className='item'>
-              <Link to='/projects'>Contacto</Link>
+              <Link to='/contact'>Contacto</Link>
             </li>
           
             </div>
