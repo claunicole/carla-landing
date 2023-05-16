@@ -4,7 +4,7 @@ function About() {
   return (
     <div className='about-container'>
       <div className='info-profile'>
-        <img className='img-profile' src='../../public/image-about.jpg' alt="a" width={350} height={350}/>
+        <img className='img-profile' src='/image-about.jpg' alt="a" width={350} height={350}/>
         <div className='text-profile'>
           <h2>Perfil</h2>
           <p>Matrona egresada hace 9 años de la Universidad de Chile.</p>
