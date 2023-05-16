@@ -7,6 +7,10 @@ function Contact() {
 
   const[dataForm, setDataForm] = useState({email: "", name: "", message:""})
   const form = useRef();
+  
+  const service = import.meta.env.VITE_SERVICE;
+  const template = import.meta.env.VITE_TEMPLATE;
+  const public_key = import.meta.env.VITE_PUBLIC_KEY;
 
   async function sendEmail (e) {
     e.preventDefault();
@@ -17,10 +21,10 @@ function Contact() {
 
     await emailjs
       .sendForm(
-        SERVICE, 
-        TEMPLATE, 
+        service, 
+        template, 
         form.current, 
-        PUBLIC_KEY
+        public_key
         )
       .then((result) => {
           console.log(result.text);
