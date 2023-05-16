@@ -6,6 +6,7 @@
   padding: 100px 15px 0px 15px;
   background-color: white;
   color: #CC3366;
+  font-family: 'Raleway', sans-serif;
 }
 
 .form-container h2 {
@@ -51,6 +52,7 @@
   border-radius: 4px;
   margin-bottom: 50px;
   cursor: pointer; 
+  font-family: 'Raleway', sans-serif;
 }
 
 .button-message:hover, .button-message:focus {

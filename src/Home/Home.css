@@ -11,6 +11,7 @@
   background-size: cover;
   background-position: 20%; 
   color: #CC3366;
+  font-family: 'Raleway', sans-serif;
   
 }
 
@@ -44,6 +45,7 @@
   color: white;
   z-index: +2;
   margin-bottom: 50px;
+  font-family: 'Raleway', sans-serif;
   
   }
   
