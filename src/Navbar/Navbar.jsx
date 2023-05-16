@@ -1,7 +1,6 @@
 import './Navbar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faXmark} from '@fortawesome/free-solid-svg-icons';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { useState } from "react";
 import { Link } from 'react-router-dom';
 import NavLinks from '../NavLinks/NavLinks';
@@ -16,9 +15,6 @@ const showMenu = () => setMenu(!menu)
   return (
     <header className={!menu ? 'navbar' : 'nav-menu'}>
         <ul className='nav-links-container'>
-        <div className='info-icons'> 
-          <a href='https://wa.me/56964224650'><FontAwesomeIcon icon={faWhatsapp} size="2x" color='black' ></FontAwesomeIcon></a>
-        </div>
         <NavLinks desktop='item-container-desktop'/>
         </ul>
         <Link to ='#' className='menu-bars'>
