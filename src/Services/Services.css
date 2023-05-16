@@ -14,16 +14,20 @@
   font-size: 2.5rem;
   padding-bottom: 20px;
   font-family: 'Raleway', sans-serif;
+  
 }
 
 .services-container h3 {
   font-size: 1.8rem;
   font-family: 'Roboto', sans-serif;
+  
 }
 
 .services-container p {
   font-size: 1.5rem;
   font-family: 'Raleway', sans-serif;
+  color: #213547;
+  
 }
 
 ul {
